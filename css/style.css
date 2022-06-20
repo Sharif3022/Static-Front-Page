@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hr1 {
+  margin-left: 36.5%;
+  color: green;
+  width: 50%;
+  border-top: 3px solid green;
+  margin-top: 5px;
+}
+
+#hr2 {
+  margin-left: 16.5%;
+  color: green;
+  width: 50%;
+  border-top: 3px solid green;
+  margin-top: 5px;
+}
+
+.header {
+  background-color: green;
+  height: 80px;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-header p {
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 6px 20px;
+  background-color: lightgreen;
+  margin: 50px 0 50px 0;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 4px 3px;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: green;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background-color: green;
+  cursor: pointer;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid green;
+    width: 70%;
+    height: 50px;
+    margin: 40px 5px 0 250px;
+    font-size: 20px;
+}
+
+.topic a{
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+
+
+.page-count{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0 30px 38%;
+    font-size: 25px;
+}
+
+.page-count a{
+    text-decoration: none;
+    color: green;
+}
+
+
+.footer{
+    width: 50%;
+    height: 165px;
+   border: 2px solid green;
+   border-radius: 3px;
+   margin: 50px 0 30px 27%;
+   justify-content: center;
+   border-top: 0;
+}
+
+.footer h2{
+    margin: 10px 0 30px 27%;
+
+}
+
+.footer p{
+    margin: 10px 0 30px 22%;
+    font-size: 20px;
+
+}
+
+.footer button{
+    margin: 10px 0 40px 42%;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border: none;
+    
+}
+
+.footer-end{
+    background-color: green;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+
+#t1 .modal{
+    /* border: 1px solid black; */
+    width: 50%;
+    background-color:white;
+    z-index: 1;
+    height: 70vh;
+    font-size: 12px;
+    line-height: 17px;
+    margin-right: 30%;
+}
+
+#t1 .modal{
+ display: none;
+}
+
+#t1:hover .modal{
+    display: block;
+    position: absolute;
+    top:63% ;
+    left: 27%;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    
+}
+
+
+#t1 .modal p{
+    margin-left: 50px;
+    list-style:lower-alpha;
+
+}
+
+
+#t1 .modal h6{
+    margin-left: 20px;
+    font-size: 13px;
+
+}
+
+#t1 .modal h5{
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+
+
+
+#t2 .modal{
+    /* border: 1px solid black; */
+    width: 50%;
+    background-color:white;
+    z-index: 1;
+    height: 70vh;
+    margin-top:65vh;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#t2 .modal{
+ display: none;
+
+}
+
+#t2:hover .modal{
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 27%;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px ;
+
+}
+
+
+#t2 .modal p{
+    margin-left: 50px;
+    list-style:lower-alpha;
+
+}
+
+
+#t2 .modal h6{
+    margin-left: 20px;
+    font-size: 13px;
+
+}
+
+#t2 .modal h5{
+    margin-left: 20px;
+    font-size: 10px;
+}
